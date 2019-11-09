@@ -3,20 +3,44 @@
     padding: 0;
 }
 
+/* Option 1 ----------------------------------------------------------------*/
+/*body {*/
+/*    font-family: Arial, Helvetica, sans-serif;*/
+/*    background: #333;*/
+/*    color: #fff;*/
+/*    line-height: 1.6;*/
+/*    height: 100vh;*/
+/*    overflow: hidden;*/
+/*}*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #333;
     color: #fff;
     line-height: 1.6;
     height: 100vh;
-
 }
+
+/* Option 1 ----------------------------------------------------------------*/
+/*.container {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    !* CSS Smooth Scroll *!*/
+/*    !* Not sure why it needs to set hidden in the body and allow in container. *!*/
+/*    overflow-y: scroll;*/
+/*    !* https://www.w3schools.com/cssref/pr_scroll-behavior.asp*/
+/*       It's not cross browsers compatible *!*/
+/*    scroll-behavior: smooth;*/
+/*    !* https://css-tricks.com/almanac/properties/s/scroll-snap-type/*/
+/*        mandatory is a strictness value which tells the browser to always go to a snap position when there isn't scrolling happening.*/
+/*        proximity is a strictness value which tells the browser to go to a snap position if a scrolling action gets pretty close to a snap position. If it's not pretty close, then the browser shouldn't snap and scrolling will behave normally.*/
+/*     *!*/
+/*    scroll-snap-type: y mandatory;*/
+/*}*/
 
 .container {
     width: 100%;
     height: 100%;
-    /* CSS Smooth Scroll */
-
 }
 
 .navbar {
@@ -50,6 +74,19 @@ body {
 .navbar ul li a:hover {
     color: skyblue;
 }
+
+/* Option 1 ----------------------------------------------------------------*/
+/*section {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    !* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align *!*/
+/*    scroll-snap-align: center;*/
+/*}*/
 
 section {
     display: flex;
