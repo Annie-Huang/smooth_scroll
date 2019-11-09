@@ -2,3 +2,6 @@ https://www.youtube.com/watch?v=y9nlfqT4s9s
 https://codepen.io/bradtraversy/pen/xBdyzr
 
 https://github.com/Annie-Huang/smooth_scroll
+
+https://cdnjs.com/libraries/jquery/     << avoid slim version as it doesn't have animation.
+
