@@ -18,3 +18,9 @@
 //         }, 800);
 //     }
 // });
+
+// Option 3 - SmoothScroll Script
+// This, a[href*="#"], means it will work on any links.
+const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+    speed: 800
+});
